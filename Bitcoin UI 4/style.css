@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+.track{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    width: 100%;
+    height: 99.5vh;
+    
+}
+
+
+.part-1{
+    width: 80%;
+    height: 85vh;
+    border-radius: 30px;
+    background-image: url(./btc.png);
+    background-blend-mode:screen;
+    background-position-y: 100%;
+    background-size: cover;
+}
+
+.nav{
+    width: 100%;
+    height: 120px;
+    display: flex;
+}
+
+.nav-part-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 120px;
+}
+
+.nav-part-1 h1{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 1px 2px;
+}
+
+.nav-part-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    height: 120px;
+   
+}
+
+.nav-part-2 p{
+    font-size: 20px;
+    color: white;
+    text-shadow: rgb(0, 0, 0) 1px 2px;
+}
+
+
+.nav-part-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+    width: 30%;
+    height: 120px;
+    
+}
+
+.nav-part-3 button{
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.599);
+}
+
+
+.text-part{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 100%;
+    height: 65vh;
+   
+}
+
+.text-part-part-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    width: 70%;
+    height: 40vh;
+    gap: 20px;
+}
+
+
+.text-part-part-1 h1{
+    font-size: 45px;
+    text-align: center;
+    color: rgb(0, 255, 13);
+    text-shadow: rgb(0, 0, 0) 1px 2px;
+}
+
+
+
+.text-part-part-1 h1 span{
+    font-size: 45px;
+    text-align: center;
+    color: rgb(81, 240, 7);
+    
+}
+
+.text-part-part-1 p{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 1px 2px;
+}
+
+
+.text-part-part-1 button{
+    width: 170px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(255, 0, 212);
+    background-color: #000000;
+    
+    border-radius: 15px;
+    border: none;
+}
+
+.text-part-part-1 button:hover{
+    color: rgb(253, 62, 62);
+    background-color: #10b123;
+    text-shadow: rgb(0, 0, 0) 1px 2px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+
+    .track{
+        width: 100%;
+        height: 99.5vh;
+    }
+    
+    
+    .part-1{
+        width: 90%;
+        height: 85vh;
+    }
+    
+    .nav{
+        width: 100%;
+        height: 120px;
+        display: flex;
+    }
+    
+    .nav-part-1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+        height: 120px;
+       
+    
+    }
+    
+    .nav-part-1 h1{
+        font-size: 30px;
+        color: white;
+    }
+    
+    .nav-part-2{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 50%;
+        height: 120px;
+        
+    }
+    
+    .nav-part-2 p{
+        font-size: 15px;
+        color: white;
+        text-shadow: rgb(0, 0, 0) 1px 2px;
+    }
+    
+    
+    .nav-part-3{
+        display: flex;
+        align-items: center;
+        justify-content: space-around; 
+        width: 30%;
+        height: 120px;
+          
+    }
+    
+    .nav-part-3 button{
+        width: 100px;
+        height: 35px;
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(255, 0, 0);
+        border-radius: 15px;
+        border: 1px solid rgb(255, 1, 1);
+        
+    }
+    
+    
+    .text-part{
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        width: 100%;
+        height: 55vh;
+       
+    }
+    
+    .text-part-part-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        height: 40vh;
+        gap: 20px;
+    }
+    
+    
+    .text-part-part-1 h1{
+        font-size: 40px;
+        text-align: center;
+        color: rgb(255, 0, 0);
+        text-shadow: rgb(0, 0, 0) 1px 2px;
+    }
+    
+    
+    .text-part-part-1 p{
+        font-size: 20px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        text-shadow: rgb(0, 0, 0) 1px 2px;
+    }
+    
+    
+    .text-part-part-1 button{
+        color: #0c0b0b;
+        background-color: #ff0202;
+        border-radius: 15px;
+        border: none;
+        width: 150px;
+        height: 40px;
+        font-size: 17px;
+        font-weight: 600;
+       
+       
+    }
+
+    
+}
